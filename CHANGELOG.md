@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+- Disable the `translatableV2` directive when the string comes from the Elastic Search.
+
 ## [1.37.5] - 2021-03-26
 ### Changed
 - Facet Value ordering, keeping selected values at the top.
