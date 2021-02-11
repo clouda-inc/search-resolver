@@ -78,6 +78,7 @@ interface FacetsInput {
   searchState?: string
   removeHiddenFacets: boolean
   hideUnavailableItems: boolean
+  showCategoryTree: boolean
 }
 
 interface ProductSearchInput {
