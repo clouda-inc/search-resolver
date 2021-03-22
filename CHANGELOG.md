@@ -7,16 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Category tree to the facets query.
+
 ## [1.37.1] - 2021-03-17
 
 ### Changed
-
 - GraphQL Schema.
 
 ## [1.37.0] - 2021-03-17
 
 ### Added
-
 - Handle for `regionId` as query parameter. 
 
 ## [1.36.1] - 2021-03-17

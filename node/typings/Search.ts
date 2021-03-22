@@ -57,7 +57,7 @@ interface SuggestionProductsArgs {
   productOriginVtex: boolean
   simulationBehavior: 'skip' | 'default' | null
   sellers?: RegionSeller[]
-  hideUnavailableItems?: boolean | null,
+  hideUnavailableItems?: boolean | null
   regionId?: string
 }
 
@@ -78,7 +78,7 @@ interface FacetsInput {
   searchState?: string
   removeHiddenFacets: boolean
   hideUnavailableItems: boolean
-  showCategoryTree: boolean
+  categoryTreeBehavior: 'default' | 'show' | 'hide'
 }
 
 interface ProductSearchInput {
